@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-image: url("../images/MountainDesert.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header-panel {
+    margin: 0 auto;
+    padding-top: 17px;
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-panel__logo {
+    margin-top: 3px;
+    height: 26px;
+}
+
+.header-navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-navigation__list-element {
+    padding: 10px 20px;
+    font-family: Oxygen, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.6;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header-tittle {
+    margin-top: 127px;
+    padding-bottom: 157px;
+}
+
+.main-tittle {
+    font-family: Lora, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    bottom: 7px;
+}
+
+.sub-tittle {
+    font-family: Oxygen, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+    margin-top: 13px;
+}
+
+.button-lasts-post {
+    display: block;
+    width: 167px;
+    height: 44px;
+    margin: 31px auto 0;
+    font-family: Oxygen, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    border-width: 0;
+    border-radius: 3px;
+    background-color: rgba(221, 120, 63, 1);
+    padding: 12px 31px;
+}
+
+.main {
+    background-color: rgba(247, 247, 247, 1);
+    padding-bottom: 83px;
+}
+
+.menu {
+    background-color: white;
+}
+
+.menu-panel {
+    margin: 0 auto 0;
+    max-width: 960px;
+}
+
+.menu-panel__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    align-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.menu-panel__list-element {
+    width: 139px;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0em;
+    color: rgba(118, 128, 136, 1);
+}
+
+.posts__block {
+    max-width: 960px;
+    margin: 60px auto 0;
+}
+
+.posts__main-tittle {
+    margin: 60px auto 0;
+    padding-bottom: 16px;
+    font-family: Oxygen, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgba(46, 46, 46, 1);
+}
+
+.posts__line {
+    width: 188px;
+    height: 1px;
+    background-color: rgba(222, 222, 222, 1);
+    margin: 0 auto;
+}
+
+.posts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.featured-posts__post {
+    width: 460px;
+    margin: 7px 0;
+    position: relative;
+}
+
+.featured-post__picture {
+    position: absolute;
+    border-radius: 3px;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.post-type__photography {
+    width: 108px;
+    position: relative;
+    border-radius: 2px;
+    margin: 20px 0 0 20px;
+    background-color: rgba(168, 114, 183, 1);
+    color: white;
+    font-family: Oxygen, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.featured-posts__tittle {
+    margin-top: 111px;
+    position: relative;
+    font-family: Lora, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+}
+
+.featured-posts__sub-tittle {
+    font-family: Oxygen, sans-serif;
+    font-size: 14px;
+    position: relative;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 6px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.featured-posts__info {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 420px;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+}
+
+.posts__author {
+    width: 26px;
+    position: relative;
+    height: 26px;
+    border-radius: 60px;
+    margin-top: 5px;
+}
+
+.featured-posts__author-name {
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    font-family: Oxygen, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.featured-posts__author-date {
+    font-family: Oxygen, sans-serif;
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: auto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.post-type__adventure {
+    width: 87px;
+    border-radius: 2px;
+    position: relative;
+    margin: 20px 0 0 20px;
+    background-color: rgba(221, 120, 63, 1);
+    color: white;
+    font-family: Oxygen, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.featured-posts__author {
+    width: 26px;
+    height: 26px;
+    border-radius: 60px;
+    margin-top: 5px;
+}
+
+.most-recent__post {
+    width: 296px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.09);
+    margin-bottom: 25px;
+}
+
+.image-border {
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.post__picture {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.post-type {
+    opacity: 0;
+    margin: 10px 0 0 10px;
+    color: white;
+    font-family: Oxygen, sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    line-height: 22px;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.post-type__featured {
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+.type-nature {
+    background-color: rgba(230, 199, 40, 1);
+    width: 49px;
+}
+
+.type-photography {
+    background-color: rgba(168, 114, 183, 1);
+    width: 85px;
+}
+
+.type-relaxation {
+    background-color: rgba(74, 174, 194, 1);
+    width: 70px;
+}
+
+.type-vacation {
+    background-color: rgba(210, 95, 124, 1);
+    width: 57px;
+}
+
+.type-travel {
+    background-color: rgba(73, 174, 92, 1);
+    width: 47px;
+}
+
+.border-line {
+    background-color: rgba(229, 229, 229, 1);
+    height: 1px;
+}
+
+.most-recent__tittle {
+    color: rgba(16, 19, 21, 1);
+    font-family: Lora, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    margin: 14px 0 0 13px;
+}
+
+.most-recent__sub-tittle {
+    color: rgba(122, 122, 122, 1);
+    min-height: 51px;
+    font-family: Oxygen, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin: 6px 5px 0 13px;
+}
+
+.most-recent__post-info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 296px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 7px;
+    padding-bottom: 6px;
+}
+
+.most-recent__post-author {
+    color: rgba(153, 153, 153, 1);
+    font-family: Oxygen, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.most-recent__post-date {
+    color: rgba(153, 153, 153, 1);
+    font-family: Oxygen, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: rgba(77, 86, 93, 1);
+    background-image: url("../images/BottomImage.png");
+    background-size: cover;
+    position: relative;
+}
+
+.footer_opacity {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 47, 56, 0.6);
+    bottom: 0px;
+    z-index: 1;
+}
+
+.footer-panel {
+    max-width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 31px 0 32px;
+}
+
+.footer-panel__logo {
+    z-index: 2;
+}
+
+.footer-nav {
+    z-index: 2;
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+    font-family: Oxygen, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-margin {
+    margin-right: 10px;
+}
